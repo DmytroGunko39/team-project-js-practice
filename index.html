@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artists Section</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=IBM+Plex+Sans:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/index-BV75uKYm.css">
+  </head>
+  <body>
+    <section class="container" id="artists">
+      <h1>Artists</h1>
+      <h2>Explore Your New Favorite Artists</h2>
+
+      <div class="cards-grid" id="cards-container"></div>
+
+      <button class="loadMoreBtn">Load More</button>
+    </section>
+
+    <!-- Модальне вікно -->
+    <div id="artistModal" class="modal hidden">
+      <div class="modal-content">
+        <span class="learn-more-btn">Learn More</span>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+  </body>
+</html>
